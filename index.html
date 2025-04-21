@@ -47,7 +47,7 @@
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/My_Resume 1.docx')"
+            onclick="window.open('./assets/MyResume_2025.pdf')"
           >
             Download CV
           </button>
@@ -56,12 +56,17 @@
           </button>
         </div>
         <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/aaqil-yousuf-86b15624a/'"
-          />
+          <a
+            href="https://www.linkedin.com/in/aaqil-yousuf/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+            />
+          </a>
           <img
             src="./assets/github.png"
             alt="My Github profile"
@@ -105,11 +110,12 @@
           </div>
           <div class="text-container">
             <p>
-              I'm Aaqil Yousuf, a tech enthusiast and a web application
-              developer pursuing a BTech in Information Technology at Easwari
-              Engineering College. I'm passionate about Web3 technology and
-              aspire to be an open-source contributor. Explore my portfolio to
-              see my work and journey in the world of tech.
+              I'm Aaqil Yousuf, a tech enthusiast and web application developer
+              pursuing a B.Tech in Information Technology at Easwari Engineering
+              College. I'm passionate about full-stack development and system
+              engineering, and I aspire to become a dedicated open-source
+              contributor. Explore my portfolio to see my work and journey in
+              the world of tech.
             </p>
           </div>
         </div>
@@ -137,7 +143,6 @@
                 />
                 <div>
                   <h3>HTML 5</h3>
-                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -148,7 +153,6 @@
                 />
                 <div>
                   <h3>CSS</h3>
-                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -159,7 +163,6 @@
                 />
                 <div>
                   <h3>Bootstrap</h3>
-                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -170,7 +173,6 @@
                 />
                 <div>
                   <h3>Tailwind</h3>
-                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -181,7 +183,6 @@
                 />
                 <div>
                   <h3>JavaScript</h3>
-                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -192,7 +193,6 @@
                 />
                 <div>
                   <h3>TypeScript</h3>
-                  <p>Begineer</p>
                 </div>
               </article>
               <article>
@@ -203,7 +203,6 @@
                 />
                 <div>
                   <h3>React.Js</h3>
-                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -214,7 +213,6 @@
                 />
                 <div>
                   <h3>Node.Js</h3>
-                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -225,7 +223,6 @@
                 />
                 <div>
                   <h3>Express.Js</h3>
-                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -236,7 +233,26 @@
                 />
                 <div>
                   <h3>MongoDB</h3>
-                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Next.js</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Django</h3>
                 </div>
               </article>
             </div>
@@ -252,7 +268,6 @@
                 />
                 <div>
                   <h3>Java</h3>
-                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -263,7 +278,6 @@
                 />
                 <div>
                   <h3>Python</h3>
-                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -273,8 +287,17 @@
                   class="icon"
                 />
                 <div>
-                  <h3>C/C++</h3>
-                  <p>Intermediate</p>
+                  <h3>C</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
                 </div>
               </article>
               <article>
@@ -285,7 +308,6 @@
                 />
                 <div>
                   <h3>Git/GitHub</h3>
-                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -296,7 +318,6 @@
                 />
                 <div>
                   <h3>Postman API</h3>
-                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -307,7 +328,16 @@
                 />
                 <div>
                   <h3>Firebase</h3>
-                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bash scripting</h3>
                 </div>
               </article>
             </div>
@@ -444,7 +474,7 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2024 Aaqil Yousuf.</p>
+      <p>Copyright &#169; <span id="year"></span> Aaqil Yousuf.</p>
     </footer>
     <script src="script.js"></script>
   </body>
